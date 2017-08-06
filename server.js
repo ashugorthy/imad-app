@@ -13,12 +13,12 @@ app.get('/drogon.html', function(req,res){
     res.sendFile(path.join(__dirname, 'ui', 'drogon.html'));
 });
 
-app.get('/article-two', function(req,res){
-    res.send('Testing article two');
+app.get('/viserion.html', function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'viserion.html'));
 });
 
-app.get('/article-three', function(req,res){
-    res.send('Testing article three');
+app.get('/rhaegal.html', function(req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'rhaegal.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
