@@ -19,4 +19,8 @@ body {
 .img-medium {
     height: 200px;
 }
+ .styling{max-width: 1000px;
+            margin: auto;
+            padding-top: 20px;
+ }
 
